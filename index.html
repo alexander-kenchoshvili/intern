@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Internship Task</title>
+</head>
+<body>
+
+<h1>This is a Heading</h1>
+<p>This is a paragraph.</p>
+
+<script type="text/javascript">
+ 
+// პალინდრომი
+
+// function palindrome(word){
+//     let reverse = word.split('').reverse().join('');
+//     console.log(reverse);
+//     if(word === reverse){
+//         return true;
+//     }else{
+//         return false;
+//     }
+// }
+// console.log(palindrome('aka'))
+
+
+// ფულის დახურდავება მინიმალური  მონეტების გამოყენებით
+
+// function changeCoins(money, coins){
+// result = [];
+// for (let i = 0; i < coins.length; i++){
+// for (let j = 0; j < Math.floor(money/coins[i]); j++) 
+// result.push(coins[i]);
+// money = money % coins[i];
+// }
+// return result;
+// }
+// console.log (changeCoins(107, [50, 20, 10, 5, 1])); 
+
+
+// ფუნქცია აბრუნებს ყველაზე მცირე მთელ დადებით რიცხვს, რომელიც არ არის მასივში
+
+// let array = [4,-3,2,6,12,7,23]
+
+// function getSmallest(arr){
+//     let num = arr.length;
+//     let exist = new Array(num+1)
+//     for(let i=0; i<num+1; i++){
+//         exist[i]=false;
+//     }
+//     for(let i=0; i<num; i++){
+//         if(arr[i] > 0 && arr[i]<= num){
+//             exist[arr[i]] = true;
+            
+//         }
+//     }
+//     for(let i=1; i<=num; i++){
+//         if(!exist[i]){
+//             return i;
+            
+//         }
+//     }
+// }
+
+// console.log(getSmallest(array))
+
+
+//  ფრჩხილების ბალანსი
+
+// function parenthesis(string){
+//     let list = [];
+//     let brace = { '(': ')'}
+//     for(let i=0; i<string.length; i++){
+//         if(string[i]==='('){
+//             list.push(string[i])
+//         }else{
+//             let last = list.pop();
+//             if(string[i] !== brace[last]) return false;
+//         }
+//     }
+//     if(list.length !== 0){
+//         return false;
+//     }
+//     return true;
+// }
+// console.log(parenthesis('()()(())'))
+
+
+//  ნ რაოდენობის საფეხურზე ასვლის ვარიანტების დათვლა 
+
+// function countFib(n){
+//     if(n<=1){
+//         return 1;
+//     }else{
+//         return countFib(n-1)+countFib(n-2);
+//     }
+// }
+
+
+// function countWays(stairs){
+//     return countFib(stairs)
+// }
+
+// console.log(countWays(5))
+
+
+
+
+
+
+</script>
+
+</body>
+</html>
